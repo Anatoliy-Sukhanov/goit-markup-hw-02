@@ -55,7 +55,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -77,11 +78,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
 }
 
 .benefit-title {
@@ -98,6 +99,9 @@ button {
   color: #434455;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
 .second-title {
   font-weight: 700;
   font-size: 36px;
@@ -105,14 +109,10 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 500;
@@ -136,7 +136,6 @@ button {
   color: #2e2f42;
 }
 .portfolio-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
